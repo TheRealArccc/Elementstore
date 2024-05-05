@@ -1,0 +1,84 @@
+/* import font */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    background-image: url(../img/the-matrix.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#header-font {
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "MORF" 15,
+      "SHLN" 50;
+}
+  
+
+.card-bg {
+    background-color: rgba(255, 255, 255, 0.25);
+    color: white
+}
+
+.topbar {
+    background-color: white;
+    top: 0;
+    z-index: 2;
+    position: sticky;
+}
+
+/* Notes */
+
+.note {
+	border:1px solid gray;
+	width:200px;
+	height:200px;
+	padding:4px;
+	font-size:85%;
+	background:#FFFC7F;
+	-moz-box-shadow:2px 2px 2px #999999;
+	-webkit-box-shadow:2px 2px 2px #999999;
+	box-shadow:2px 2px 2px #999999;
+	position:absolute;
+}
+ 
+.toolbar {
+	text-align:right;
+	font-weight:bold;
+}
+ 
+/* Postick's button "delete" */
+.delete {
+	cursor:pointer;
+    font-size:120%;
+    margin-right: 10px;
+}
+ 
+/* Content to be editable inside the postick */
+.editable {
+	cursor:pointer;
+	height:180px;
+    margin:0 auto;
+    padding: 10px;
+	width:100%;
+	overflow:hidden;
+	position:relative;
+	-moz-text-shadow: 1px 1px 0px white;
+	text-shadow: 1px 1px 0px white;
+}
+ 
+.editable:hover{
+	border:1px dotted gray;
+}

@@ -1,0 +1,129 @@
+{
+    "items" : [
+        {
+            "name": "hydrogen",
+            "price": "8"
+        },
+
+        {
+            "name": "helium",
+            "price": "300"
+        },
+
+        {
+            "name": "lithium",
+            "price": "1500"
+        },
+
+        {
+            "name": "carbon",
+            "price": "50"
+        },
+
+        {
+            "name": "beryllium",
+            "price": "200"
+        },
+
+        {
+            "name": "nitrogen",
+            "price": "0.20"
+        },
+
+        {
+            "name": "oxygen",
+            "price": "1"
+        },
+
+        {
+            "name": "fluorine",
+            "price": "1500"
+        },
+
+        {
+            "name": "neon",
+            "price": "100"
+        },
+
+        {
+            "name": "chlorine",
+            "price": "3"
+        },
+
+        {
+            "name": "argon",
+            "price": "3"
+        },
+
+        {
+            "name": "krypton",
+            "price": "400"
+        },
+
+        {
+            "name": "xenon",
+            "price": "300"
+        },
+
+        {
+            "name": "gold",
+            "price": "65000"
+        },
+
+        {
+            "name": "platinum",
+            "price": "35000"
+        },
+
+        {
+            "name": "rhodium",
+            "price": "75000"
+        },
+
+        {
+            "name": "palladium",
+            "price": "2500"
+        },
+
+        {
+            "name": "silver",
+            "price": "500"
+        },
+
+        {
+            "name": "iridium",
+            "price": "4000"
+        },
+
+        {
+            "name": "cobalt",
+            "price": "35"
+        },
+
+        {
+            "name": "tungsten",
+            "price": "30"
+        },
+
+        {
+            "name": "uranium",
+            "price": "50"
+        },
+
+        {
+            "name": "titanium",
+            "price": "15"
+        },
+
+        {
+            "name": "silicon",
+            "price": "10"
+        },
+
+        {
+            "name": "gallium",
+            "price": "400"
+        }
+    ]
+
+}
